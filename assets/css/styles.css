@@ -1,0 +1,41 @@
+html, body {
+    margin: 0px;
+    background-color: #2F4F30;
+    color: white;
+}
+
+
+
+
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+
+}
+
+#computadora-cartas, #jugador-cartas {
+    height: 240px;
+
+}
+.small, small {
+    font-size: 40px;
+    color: white;
+}
+
+body > div:nth-child(3) > div > h1{
+    color: lightseagreen;
+}
+
+body > div.row.container.mt-2 > div > h1 {
+    color: magenta;
+}
